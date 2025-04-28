@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(205, 255, 255);
+    text-align: center;
+    height: 200px;
+}
+
+h1{ font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(174, 31, 31);
+    padding: 20px;
+    font-size: 50px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+section span{
+    color: rgb(246, 76, 212);
+    font-size: 35px;
+}
+
+article h2{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.flex-container p{
+    line-height: 2.5;
+    font-size: 17px;
+}
+
+.skills{
+    margin-top: 30px;
+    background-color: rgb(209, 244, 233);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(37, 92, 124, 0.5);
+    width: 60%;
+    margin: 80px auto;
+    padding: 40px;
+}
+
+.skills h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.skills-list{
+    list-style: none;
+    color: white;
+    text-align: center;
+
+}
+
+.skills-list li{
+    display: inline-block;
+    background-color: rgb(85, 85, 245);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.portfolio{
+    background-color: rgb(244, 209, 255);
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(167, 57, 145, 0.3);
+    margin-bottom: 20px;
+}
+
+.portfolio h2{
+    text-align: center;
+    border-bottom: 5px dashed rgb(205, 56, 192);
+    padding-bottom: 5px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.portfolio p{
+    text-align: center;
+}
+
+.portfolio-item{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+}
+
+.portfolio-item img {
+    width: 23%;
+    height: 180px;
+    object-fit: contain;
+    border: 2px solid #9d7373;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.contact-form{
+    margin: 0 auto;
+    background-color: rgb(250, 241, 249);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(234, 34, 34, 0.3);
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-form h3{
+    color: red;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+}
+.form-group{
+    margin: 15px 0;
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+label,input,textarea,button,select{
+    margin: 5px auto;
+    display: block;
+    width: 70%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(76, 76, 243);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    text-align: center;
+}
