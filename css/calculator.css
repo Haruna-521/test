@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(205, 255, 255);
+    text-align: center;
+    height: 200px;
+}
+
+header h1{font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(18, 14, 128);
+    padding: 25px;
+    font-size: 65px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin: 30px 0px;
+}
+.contact-form{
+    margin: 0 auto;
+    background-color: rgb(231, 242, 226);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(49, 141, 105, 0.3);
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-form h3{
+    color: rgb(47, 108, 195);
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+}
+
+.form-group{
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+label,input,textarea,button,select{
+    margin: 10px auto;
+    padding: 4px;
+    /* display: block; */
+    width: 50%;
+    border-radius: 4px;
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    text-align: center;
+}

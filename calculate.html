@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電卓アプリ</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+    </style>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+    </style> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>電卓アプリ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="form.html">お問い合わせ</a></li>
+                <li><a href="work.html">課題</a></li>
+                <li><a href="calculate.html">電卓</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <div class="form-group">
+            <h3>計算式</h3>
+            <form id="calcform" action="" method="post">
+                <label for="value1">値1</label>
+                <input type="number" id="value1">
+                <br>
+
+                <label for="value2">値2</label>
+                <input type="number" id="value2">
+                <br>
+
+                <label for="choice">演算子</label>
+                <select name="choice" id="choice">
+                    <option value="addition">足し算</option>
+                    <option value="subtraction">引き算</option>
+                    <option value="multiplication">掛け算</option>
+                    <option value="division">割り算</option>
+                </select>
+                <br>
+                <br>
+            </form>
+            <p id="formula">ここに計算式が表示されます</p>
+            <p id="result">ここに結果が表示されます</p>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My PORTFOLIO</p>
+    </footer>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
