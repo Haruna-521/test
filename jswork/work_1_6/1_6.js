@@ -16,7 +16,7 @@ function makeCoffee() {
 
   }
 
-  
+  //まだ関数を定義しただけ。実行はされない。
 
   function makeSandwich() {
 
@@ -36,7 +36,7 @@ function makeCoffee() {
 
   }
 
-  
+  //まだ関数を定義しただけ。実行はされない。
 
   async function serveCustomer() {
 
