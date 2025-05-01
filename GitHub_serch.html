@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1_6課題</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <title>GitHub検索</title>
+    <link rel="stylesheet" href="css/GitHubserch.css">
 
 </head>
 <body>
     <header>
-        <h1>課題提出場所</h1>
+        <h1>GitHub検索</h1>
         <nav>
             <ul>
                 <li><a href="../../index.html">ホーム</a></li>
                 <li><a href="../../form.html">お問い合わせ</a></li>
                 <li><a href="../../work.html">課題</a></li>
                 <li><a href="../../calculate.html">電卓</a></li>
+                <li><a href="GitHub_serch.html">GitHub検索</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>非同期処理</h1>
-        <p>1_6の課題の提出場所です。</p>
+        <h1>GitHubユーザー情報を取得しよう</h1>
+        <input type="text" id="username" placeholder="GitHubユーザー名を入力">
+        <button id="searchBtn">検索</button>
+        <div id="result"></div>
     </main>
     <footer>
         <p>&copy; 2025 My PORTFOLIO</p>
     </footer>
-    <script src="1_6.js"></script>
+    <script src="js/GitHubserch.js"></script>
 </body>
 </html>
